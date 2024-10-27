@@ -3,7 +3,7 @@ import {createContext, useEffect, useState} from "react";
 import { BrowserRouter,  } from 'react-router-dom';
 import {  auth } from '../firebase/firebaseConfig.jsx';
 import './App.css'
-import {onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword} from "firebase/auth";
+import {onAuthStateChanged,} from "firebase/auth";
 
 
 
